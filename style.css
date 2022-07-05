@@ -1,0 +1,295 @@
+/*PRESETEOS*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #0E0D23;
+    background-color: #edece5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/*FIN PRESETEOS*/
+
+
+/*CONTENEDOR*/
+.contenedor{
+    margin: auto;
+    width: 1320px;
+    display: flex;
+}
+/*FIN CONTENEDOR*/
+
+
+/*NAV*/
+nav{
+    background-color:darkgrey
+}
+.logo{
+    width: 80px;
+    height: 90px;
+}
+.menu{
+    margin: auto 0;
+    width: 1240px;
+    display: flex;
+    justify-content:end;
+}
+/*FIN NAV*/
+
+
+/*HEADER*/
+header{
+    background-image: url(./img/FONDO.jpg);
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: 200px;
+    margin-top: -13px;
+    background-color: #edece5;
+    padding: 80px;
+}
+h1{
+    margin: auto;
+    margin-top: -35px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0E0D23;
+    font-weight: lighter;
+    font-size: 80px;
+    line-height: 80px
+}
+span{
+    font-weight:500
+}
+/*FIN HEADER*/
+
+
+/*TEXTO INTRO*/
+.intros{
+    width: 1320px;
+    display: flex;
+    margin: auto;
+    border-bottom: black 2px solid;
+    padding-bottom: 20px;
+}
+.intros p{
+font-family: 'Quicksand', sans-serif;
+font-size: 60px;
+font-weight: lighter;
+line-height: 60px
+}
+/*FIN TEXTO INTRO*/
+
+/*CAROUSEL*/
+.carousel{
+    margin-top: 100px;
+}
+.carousel__slide{
+    max-width: 100%;
+}
+.carousel__slide img{
+    max-width: 100%;
+    height: auto;
+}
+/*FIN CAROUSEL*/
+
+/*SECTION EQUIPO*/
+.dflex2{
+    width: 692px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    justify-content: flex-start
+}
+#equipo{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 598px;
+    font-size: 120px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: lighter;
+    line-height: 80px
+}
+.textos{
+    width: 70%;
+    margin-top: 65px;
+}
+.textos p{
+    margin: 0px;
+}
+.imagen {
+    width: 25%;
+}
+.imagen img{
+    border-radius: 15px;
+}
+.textos h3{
+font-family: 'Quicksand', sans-serif;
+margin: 0px;
+font-size: 24px;
+font-weight:bold
+}
+/*FIN SECTION EQUIPO*/
+
+
+/*SECTION SERVICIOS*/
+.trad{
+    display: flex;
+    margin: auto;
+    margin-bottom: 350px;
+}
+.intros3{
+    display: flex;
+    margin: 0px;
+}
+.intros3 p{
+    width: 549px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    line-height: 55px
+}
+#servicios{
+    width: 725px;
+    margin: auto;
+    font-size: 120px;
+    margin-bottom: 120px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: lighter;
+    line-height: 80px
+}
+/*FIN SECTION SERVICIOS*/
+
+
+/*SECTION PORTFOLIO*/
+.orden{
+width: 744px;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 300px;
+}
+.expo{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: flex-end
+}
+#portfolio{
+    width: 500px;
+    padding: 19px;
+    margin-bottom: 970px;
+    margin-top: 621px;
+    font-size: 120px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: lighter;
+    line-height: 80px
+}
+.galeria img{
+    border-radius: 10px;
+}
+/*FIN SECTION PORTFOLIO*/
+
+
+/*TEXTO CIERRE*/
+.intros2{
+    width: 1320px;
+    display: flex;
+    margin: auto;
+    border-bottom: black 2px solid;
+    padding-bottom: 20px;
+}
+.intros2 p{
+font-size: 60px;
+font-weight: lighter;
+line-height: 60px
+}
+/*FIN TEXTO CIERRE*/
+
+
+/*SECTION CONTACTO*/
+#contacto{
+    margin: auto;
+    margin-top: 300px;
+    padding: 80px;
+    background-color:lightgray
+}
+form{
+    width: 600px;
+    margin: auto 0;
+}
+label,input{
+    display: block;
+    width: 80%;
+    margin: 10px 0;
+}
+input{
+    height: 10px;
+    padding: 10px;
+}
+textarea{
+    display: block;
+    width: 80%;
+    margin: 10px;
+}
+#contacto h2{
+    width: 680px;
+    margin: auto 0;
+    font-size: 120px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: lighter;
+    line-height: 80px
+}
+/*FIN SECTION CONTACTO*/
+
+
+/*PIE DE PAGINA*/
+footer{
+    background-color:darkgrey
+}
+.fin{
+    width: 1180px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between
+}
+.redes{
+    width: 180px;
+    display: flex;
+    margin: auto 0;
+    flex-direction: row;
+    justify-content: center
+}
+.redes article{
+    padding: 10px;
+}
+/*FIN DE PAGINA*/
